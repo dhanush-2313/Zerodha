@@ -1,13 +1,31 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import HomePage from './landingPage/home/HomePage';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
+import HomePage from "./landingPage/home/HomePage";
+import Signup from "./landingPage/signup/SignUp";
+import AboutPage from "./landingPage/about/AboutPage";
+import ProductPage from "./landingPage/products/ProductsPage";
+import PricingPage from "./landingPage/pricing/PricingPage";
+import SupportPage from "./landingPage/support/SupportPage";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import Navbar from "./landingPage/Navbar";
+import Footer from "./landingPage/Footer";
+import NotFound from "./landingPage/NotFound";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-    
-      <HomePage />
-    
-  </React.StrictMode>
+  <BrowserRouter>
+    <Navbar />
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/signup" element={<Signup />} />
+      <Route path="/about" element={<AboutPage />} />
+      <Route path="/product" element={<ProductPage />} />
+      <Route path="/pricing" element={<PricingPage />} />
+      <Route path="/support" element={<SupportPage />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+    <Footer />
+  </BrowserRouter>
 );
