@@ -13,73 +13,137 @@ function Footer() {
           </div>
           <div className="col">
             <h5>Company</h5>
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               About
             </a>
             <br />
-            <a className="mb-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Products
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Pricing
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Referral programme
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Careers
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Zerodha.tech
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Press & media
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Zerodha cares (CSR)
             </a>
             <br />
           </div>
           <div className="col">
             <h5>Support</h5>
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Contact
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Support portal
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Z-Connect blog
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               List of charges
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Downloads & resources
             </a>
             <br />
           </div>
           <div className="col">
             <h5>Account</h5>
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Open an account
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               Fund transfer
             </a>
             <br />
-            <a className="mt-3 text-muted" href="">
+            <a
+              className="mt-3 text-muted"
+              href=""
+              style={{ textDecoration: "none", lineHeight: "2.5" }}
+            >
               60 day challenge
             </a>
             <br />
