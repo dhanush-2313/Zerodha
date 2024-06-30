@@ -77,7 +77,7 @@ const Menu = () => {
               </p>
             </Link>
           </li>
-          <li>
+          {/* <li>
             <Link
               style={{ textDecoration: "none" }}
               to="/apps"
@@ -87,7 +87,7 @@ const Menu = () => {
                 Apps
               </p>
             </Link>
-          </li>
+          </li> */}
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
