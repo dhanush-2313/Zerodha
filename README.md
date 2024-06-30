@@ -6,7 +6,7 @@ This project simulates the Zerodha trading platform, providing various functiona
 
 ## Prerequisites
 
-Make sure you have the following installed on your system before proceeding:
+Make sure you have the following installed on your system before proceeding: 
 
 - [Node.js](https://nodejs.org/) (which includes npm)
 
