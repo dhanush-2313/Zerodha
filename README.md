@@ -53,9 +53,6 @@ This project consists of multiple folders, each representing a different part of
     npm install
     npm start
 
-    # Continue for all other folders...
-    ```
-
 ## Project Structure
 
 Briefly describe the structure of your project if necessary. For example:
