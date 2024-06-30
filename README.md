@@ -1,4 +1,4 @@
-# Zerodha Project
+# Zerodha Clone
 
 ## Overview
 
